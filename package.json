@@ -1,0 +1,12 @@
+{
+  "name": "intro-full-stack",
+  "version": "1.0.0",
+  "description": "primer proyecto completo",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch index.js"
+  },
+  "author": "kinggarett <carlosjavier094@gmail.com>",
+  "license": "MIT",
+  "private": false
+}
