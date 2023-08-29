@@ -4,7 +4,8 @@
   "description": "primer proyecto completo",
   "main": "index.js",
   "scripts": {
-    "dev": "node --watch index.js"
+    "dev": "node --watch index.js",
+    "start": "node index.js"
   },
   "author": "kinggarett <carlosjavier094@gmail.com>",
   "license": "MIT",
