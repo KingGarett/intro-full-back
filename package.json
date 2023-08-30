@@ -9,5 +9,8 @@
   },
   "author": "kinggarett <carlosjavier094@gmail.com>",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "devDependencies": {
+    "dotenv": "^16.3.1"
+  }
 }

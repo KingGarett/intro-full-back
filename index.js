@@ -1,4 +1,4 @@
-const { log } = require('console')
+require("dotenv").congif()
 const http = require('http')
 
 const requestController = () => [
@@ -6,9 +6,12 @@ const requestController = () => [
 ]
 
 const server = http.createServer((req, res) => {
-    console.log('recibiendo respuesta')
     res.end('terminando la respuesta')
-
+    requestController()
 })
 
-server.listen(4000)
+const PORT = process.env.PORT
+
+server.listen(PORT, () => {
+    console.log('corriendo en puerto:' + 4000)
+})
