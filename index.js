@@ -1,4 +1,4 @@
-require("dotenv").congif()
+require("dotenv").config()
 const http = require('http')
 
 const requestController = () => [
