@@ -3,7 +3,7 @@ const getUsersBtn = document.getElementById('get-users')
 const createEditTaskBtn = document.getElementById('create-task')
 let main = document.querySelector('main')
 
-const baseBackendUrl = 'http://localhost:4000/api'
+const baseBackendUrl = `${window.origin}/api`
 
 getUsersBtn.addEventListener('click', async () => {
 
